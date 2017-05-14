@@ -1,4 +1,4 @@
-# This file builds a hash table for text. It indexes words based on the first letter of the word. The hash key is generated based on the ascii integer representation of the first letter of the word. Hence the words are indexed from 0-25 and then all other characters(special and numerical ) get indexed into the 27th row(index = 26) of the table.
+This file builds a hash table for text. It indexes words based on the first letter of the word. The hash key is generated based on the ascii integer representation of the first letter of the word. Hence the words are indexed from 0-25 and then all other characters(special and numerical ) get indexed into the 27th row(index = 26) of the table.
 
 
 Example: Giving the following text as input in a file:
